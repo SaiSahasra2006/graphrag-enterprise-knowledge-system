@@ -1,0 +1,2486 @@
+[
+    {
+        "incident_id": "INC001",
+        "equipment": "Hydraulic Press #3",
+        "device": "Product Discharge Conveyor",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Excessive product supply from the previous process",
+            "Conveyor belt wear causing slippage",
+            "Improper sensitivity setting of the overload protection device"
+        ],
+        "immediate_actions": [
+            "Shut down power to the press machine and conveyor.",
+            "Manually collect and organize accumulated products.",
+            "Adjust conveyor belt tension to eliminate slippage.",
+            "Reset the motor's overload protection device and attempt to restart.",
+            "Report to relevant personnel and superiors.",
+            "After restarting, confirm functionality and resume operation."
+        ],
+        "permanent_actions": [
+            "Strengthen coordination with the previous process to thoroughly adjust product supply.",
+            "Add \\\"tension\\\" and \\\"wear condition\\\" to the conveyor belt's regular inspection items and clarify replacement criteria.",
+            "Review and adjust the sensitivity setting of the motor's overload protection device to an appropriate value.",
+            "Consider introducing a sensor to detect product accumulation on the conveyor."
+        ]
+    },
+    {
+        "incident_id": "INC002",
+        "equipment": "Hydraulic Press #3",
+        "device": "Product Discharge Conveyor",
+        "category": "Production Loss (Product Damage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Metal fatigue of guide rail (aging deterioration)",
+            "Improper handling during product jam",
+            "Overlooking damage during daily inspection"
+        ],
+        "immediate_actions": [
+            "Stop the press machine and identify the damaged guide rail.",
+            "Collect and count fallen and damaged products.",
+            "Immediately arrange for a replacement guide rail and perform the exchange.",
+            "Report to relevant personnel and superiors.",
+            "After guide rail replacement, confirm functionality and resume operation."
+        ],
+        "permanent_actions": [
+            "Specifically add \\\"presence of cracks/deformation\\\" to the guide rail's regular inspection items and clarify check criteria.",
+            "Clearly state procedures for product jams in SOPs and re-educate workers not to apply excessive force.",
+            "Consider changing to a more durable guide rail material.",
+            "Consider installing a protective net or fall prevention fence under the conveyor."
+        ]
+    },
+    {
+        "incident_id": "INC003",
+        "equipment": "Hydraulic Press #3",
+        "device": "Product Discharge Conveyor",
+        "category": "Equipment Damage (During Production)",
+        "location": "Processing A Line",
+        "causes": [
+            "Aging deterioration of the drive chain",
+            "Insufficient regular lubrication",
+            "Insufficient chain tension adjustment"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine and shut off power.",
+            "Remove the broken chain and move it to a safe place.",
+            "Immediately begin arranging for a replacement chain and perform the exchange.",
+            "Report to relevant personnel and superiors.",
+            "After chain replacement, adjust tension and lubricate, confirm functionality and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"wear condition\\\" and \\\"lubrication condition\\\" to the drive chain's regular inspection items and clarify replacement criteria.",
+            "Clearly state lubrication frequency and procedures in SOPs and ensure thorough implementation.",
+            "Add chain tension adjustment to regular maintenance items.",
+            "Consider changing to a more durable chain material or introducing an automatic lubrication device."
+        ]
+    },
+    {
+        "incident_id": "INC004",
+        "equipment": "Hydraulic Press #3",
+        "device": "Product Discharge Conveyor",
+        "category": "Quality Defect (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Inverter malfunction (aging deterioration)",
+            "Insufficient functional check of inverter during regular inspection",
+            "Absence of abnormality detection system"
+        ],
+        "immediate_actions": [
+            "Stop the press machine and isolate the defective lot.",
+            "Confirm inverter malfunction and immediately arrange for a replacement.",
+            "Replace the inverter and readjust speed settings.",
+            "Share status with relevant departments (Production Control, Quality Assurance).",
+            "After replacement, confirm speed stability with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"operation check\\\" and \\\"abnormality history check\\\" to the inverter's regular inspection items and clarify replacement criteria.",
+            "Secure spare inverter stock to enable quick replacement.",
+            "Consider introducing a system to monitor conveyor speed in real-time and alert in case of abnormality.",
+            "Increase inspection frequency of inverter cooling device."
+        ]
+    },
+    {
+        "incident_id": "INC005",
+        "equipment": "Hydraulic Press #3",
+        "device": "Product Discharge Conveyor",
+        "category": "Production Loss (Product Jam)",
+        "location": "Processing A Line",
+        "causes": [
+            "Foreign matter ingress into chute (fallen object during maintenance)",
+            "Insufficient daily inspection of chute",
+            "Inadequate foreign matter prevention measures"
+        ],
+        "immediate_actions": [
+            "Shut down power to the press machine and conveyor.",
+            "Remove foreign matter from inside the chute and clear the jam.",
+            "Manually collect and organize accumulated products.",
+            "Report to relevant personnel and superiors.",
+            "After cleaning, confirm functionality and resume operation."
+        ],
+        "permanent_actions": [
+            "Strengthen foreign matter fall prevention measures during maintenance and ensure thorough cleaning and checking after work.",
+            "Add \\\"presence of foreign matter\\\" and \\\"signs of jam\\\" to the chute's daily inspection items.",
+            "Review chute shape and consider improving it to a less jam-prone structure.",
+            "Consider introducing a foreign matter detection sensor at the chute entrance."
+        ]
+    },
+    {
+        "incident_id": "INC006",
+        "equipment": "Hydraulic Press #3",
+        "device": "Product Discharge Conveyor",
+        "category": "Personal Injury (Minor)",
+        "location": "Processing A Line",
+        "causes": [
+            "Non-compliance with safety procedures (insufficient power shutdown)",
+            "Insufficient hazard prediction activities before work",
+            "Inadequate cleaning work SOP"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine and shut off power.",
+            "Provide first aid to the injured person and transport to the infirmary.",
+            "Protect the scene and take photographs.",
+            "Conduct initial investigation by interviewing relevant personnel.",
+            "Report to superiors.",
+            "Temporarily suspend cleaning work."
+        ],
+        "permanent_actions": [
+            "Revise cleaning work SOP to include power shutdown (LOTO) procedures and safety checks, and create video manuals.",
+            "Conduct re-education for all workers using the revised SOP and video manuals.",
+            "Mandate hazard prediction training (KYT) for cleaning work.",
+            "Consider installing a safety cover on the conveyor drive unit."
+        ]
+    },
+    {
+        "incident_id": "INC007",
+        "equipment": "Hydraulic Press #3",
+        "device": "Product Discharge Conveyor",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Insufficient bearing lubrication",
+            "Overlooking regular replacement timing",
+            "Delay in early detection of abnormal noise"
+        ],
+        "immediate_actions": [
+            "Shut down power to the press machine and conveyor.",
+            "Identify the seized bearing and begin replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After bearing replacement, lubricate, confirm functionality and resume operation."
+        ],
+        "permanent_actions": [
+            "Clarify regular bearing lubrication and replacement cycles and state them in SOPs.",
+            "Optimize the type and amount of lubricant.",
+            "Consider introducing a sensor to detect abnormal noise and build an early alert system.",
+            "Conduct training for workers to detect and report abnormal equipment noises early."
+        ]
+    },
+    {
+        "incident_id": "INC008",
+        "equipment": "Hydraulic Press #3",
+        "device": "Product Discharge Conveyor",
+        "category": "Production Loss (Product Jam)",
+        "location": "Processing A Line",
+        "causes": [
+            "Surface wear of conveyor belt",
+            "Insufficient friction during inclined conveyance",
+            "Overlooking belt wear during daily inspection"
+        ],
+        "immediate_actions": [
+            "Shut down power to the press machine and conveyor.",
+            "Remove jammed products and organize them.",
+            "Check the wear condition of the conveyor belt.",
+            "Report to relevant personnel and superiors.",
+            "After cleaning, confirm functionality and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"surface wear condition\\\" to the conveyor belt's regular inspection items and clarify replacement criteria.",
+            "Consider changing to a high-friction belt suitable for inclined conveyance.",
+            "Consider introducing a sensor to detect product slippage on the inclined section.",
+            "Consider installing a belt cleaner to maintain the cleanliness of the belt surface."
+        ]
+    },
+    {
+        "incident_id": "INC009",
+        "equipment": "Hydraulic Press #3",
+        "device": "Product Discharge Conveyor",
+        "category": "Quality Defect (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Loose conveyor frame fixing bolts",
+            "Insufficient bolt tightening check during regular inspection",
+            "Delay in early detection of abnormal vibration"
+        ],
+        "immediate_actions": [
+            "Stop the press machine and isolate the defective lot.",
+            "Check all conveyor frame fixing bolts and retighten loose ones.",
+            "Share status with relevant departments (Production Control, Quality Assurance).",
+            "After retightening, confirm vibration stability with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"tightening torque check\\\" to the conveyor frame fixing bolt's regular inspection items and strictly record it.",
+            "Consider introducing anti-loosening nuts or washers.",
+            "Consider introducing a sensor to detect abnormal vibration and build an early alert system.",
+            "Conduct training for workers to detect and report abnormal equipment vibrations early."
+        ]
+    },
+    {
+        "incident_id": "INC010",
+        "equipment": "Hydraulic Press #3",
+        "device": "Product Discharge Conveyor",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Moisture ingress into control panel",
+            "Insufficient waterproofing/moisture-proofing measures for control panel",
+            "Insufficient internal control panel check during regular inspection"
+        ],
+        "immediate_actions": [
+            "Shut down power to the press machine and conveyor.",
+            "Identify the short-circuited area inside the control panel and begin repair or replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After repair or replacement, perform power-on test and functional check and resume operation."
+        ],
+        "permanent_actions": [
+            "Strengthen waterproofing/moisture-proofing measures for the control panel and review installation environment.",
+            "Add \\\"presence of moisture/condensation\\\" and \\\"insulation condition of wiring\\\" to the control panel's regular internal inspection items.",
+            "Increase cleaning frequency of control panel cooling fan filter.",
+            "Secure spare control panel stock to enable quick replacement."
+        ]
+    },
+    {
+        "incident_id": "INC011",
+        "equipment": "Hydraulic Press #3",
+        "device": "Upper Die",
+        "category": "Quality Defect (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Fatigue crack in die (upper die) (aging deterioration)",
+            "Overlooking cracks during regular die inspection",
+            "Ambiguity in die management standards"
+        ],
+        "immediate_actions": [
+            "Stop the press machine and isolate the defective lot.",
+            "Immediately replace the die (upper die).",
+            "Conduct 100% inspection to identify the range of defective products.",
+            "Perform test shots with the replaced die and confirm quality.",
+            "Share status with relevant departments (Production Control, Quality Assurance)."
+        ],
+        "permanent_actions": [
+            "Review die regular maintenance standards and add more detailed check items for wear and fatigue conditions.",
+            "Consider introducing non-destructive testing (e.g., penetrant testing) for areas prone to cracking.",
+            "Establish replacement criteria based on die usage count and thoroughly manage its lifespan.",
+            "Strengthen quality check steps during die replacement."
+        ]
+    },
+    {
+        "incident_id": "INC012",
+        "equipment": "Hydraulic Press #3",
+        "device": "Upper Die",
+        "category": "Equipment Damage (During Production)",
+        "location": "Processing A Line",
+        "causes": [
+            "Air clamp mechanism pressure drop (equipment malfunction)",
+            "Insufficient worker clamp check procedure",
+            "Inadequate checklist during setup work"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine.",
+            "Remove the damaged die and move it to a safe place.",
+            "Check the pressure gauge of the air clamp mechanism.",
+            "Report to relevant personnel and superiors.",
+            "Temporarily suspend press machine restart.",
+            "Begin preparing a replacement die."
+        ],
+        "permanent_actions": [
+            "Introduce an air clamp pressure monitoring system and strengthen the interlock function to prevent the press machine from starting if the pressure is below the specified value.",
+            "Add pressure gauge value check and double-check items after die clamping to the setup work checklist.",
+            "Conduct re-education for workers on safety check procedures during setup work.",
+            "Increase the frequency of regular maintenance of the air clamp system and inspection of the pressure relief valve."
+        ]
+    },
+    {
+        "incident_id": "INC013",
+        "equipment": "Hydraulic Press #3",
+        "device": "Upper Die",
+        "category": "Production Loss (Product Damage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Aging deterioration of conveyor belt and overlooking minute cracks",
+            "Insufficient visual inspection during daily inspection",
+            "Ambiguity in criteria for evaluating deterioration status"
+        ],
+        "immediate_actions": [
+            "Stop the press machine and identify the damaged part of the conveyor belt.",
+            "Collect and count fallen and damaged products.",
+            "Immediately begin arranging for a replacement conveyor belt and perform the exchange.",
+            "Report to relevant personnel and superiors.",
+            "After conveyor replacement, confirm functionality and resume operation."
+        ],
+        "permanent_actions": [
+            "Specifically add \\\"presence of minute cracks/damage\\\" to the conveyor belt's daily inspection items and clarify check criteria.",
+            "Mandate full circumference inspection of the conveyor during regular inspection and consider introducing wear gauges or crack detection tools.",
+            "Consider installing a protective net or fall prevention fence under the conveyor.",
+            "Strengthen quality checks during belt replacement."
+        ]
+    },
+    {
+        "incident_id": "INC014",
+        "equipment": "Hydraulic Press #3",
+        "device": "Upper Die",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Insufficient regular maintenance of drive motor (overlooking bearing replacement timing)",
+            "Insufficient worker awareness of initial abnormal noise from drive unit",
+            "Absence of abnormality detection system"
+        ],
+        "immediate_actions": [
+            "Shut down power to the press machine and conveyor.",
+            "Manually collect and organize accumulated products.",
+            "Inspect the drive motor and identify the cause of failure.",
+            "Arrange for a repair technician and perform bearing replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After repair completion, confirm functionality and resume operation."
+        ],
+        "permanent_actions": [
+            "Formulate a preventive maintenance plan for the conveyor drive motor and clarify the regular bearing replacement cycle.",
+            "Consider introducing a sensor to detect abnormal noise or vibration from the drive unit and build a system to alert in case of abnormality.",
+            "Conduct training for workers to detect and report abnormal equipment noises or smells early.",
+            "Secure spare stock of important drive components."
+        ]
+    },
+    {
+        "incident_id": "INC015",
+        "equipment": "Hydraulic Press #3",
+        "device": "Upper Die",
+        "category": "Production Stoppage (Malfunction)",
+        "location": "Processing A Line",
+        "causes": [
+            "Contamination of product passage detection sensor (dust adhesion)",
+            "Insufficient daily inspection items for sensor cleaning",
+            "Inadequate sensor installation environment (insufficient dust protection)",
+            "Improper sensor sensitivity setting"
+        ],
+        "immediate_actions": [
+            "Stop the press machine.",
+            "Check the lens of the product passage detection sensor and clean off adhering dust.",
+            "Readjust sensor sensitivity and confirm normal operation.",
+            "Report to relevant personnel and superiors.",
+            "After sensor operation confirmation, resume production."
+        ],
+        "permanent_actions": [
+            "Clearly state daily cleaning of the product passage detection sensor in work procedures and ensure thorough implementation.",
+            "Increase cleaning frequency around sensor installation locations and strengthen dust protection measures (e.g., install dust covers, consider air curtains).",
+            "Review sensor sensitivity setting criteria and consider settings robust to environmental changes.",
+            "Consider optimizing sensor mounting angle and position."
+        ]
+    },
+    {
+        "incident_id": "INC016",
+        "equipment": "Hydraulic Press #3",
+        "device": "Upper Die",
+        "category": "Quality Defect (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Wear of die (upper die) (aging deterioration)",
+            "Overlooking wear during regular die inspection",
+            "Inadequate die usage count management"
+        ],
+        "immediate_actions": [
+            "Stop the press machine and isolate the defective lot.",
+            "Immediately replace the die (upper die).",
+            "Conduct 100% inspection to identify the range of defective products.",
+            "Perform test shots with the replaced die and confirm quality.",
+            "Share status with relevant departments (Production Control, Quality Assurance)."
+        ],
+        "permanent_actions": [
+            "Review die regular maintenance standards and add more detailed check items for wear condition.",
+            "Establish replacement criteria based on die usage count and thoroughly manage its lifespan.",
+            "Strengthen quality check steps during die replacement.",
+            "Consider introducing an in-line inspection device for real-time dimension measurement."
+        ]
+    },
+    {
+        "incident_id": "INC017",
+        "equipment": "Hydraulic Press #3",
+        "device": "Upper Die",
+        "category": "Equipment Damage (During Production)",
+        "location": "Processing A Line",
+        "causes": [
+            "Deterioration of die (upper die) cooling water piping",
+            "Overlooking water leakage during regular inspection",
+            "Inadequate cooling water management standards"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine.",
+            "Identify the cooling water piping leakage point and perform repair.",
+            "Cool the die to the specified temperature.",
+            "Report to relevant personnel and superiors.",
+            "After repair, confirm cooling function with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"presence of water leakage\\\" and \\\"deterioration condition of piping\\\" to the cooling water piping's regular inspection items.",
+            "Consider introducing a sensor to monitor cooling water flow rate/temperature and build a system to alert in case of abnormality.",
+            "Review cooling water management standards and thoroughly manage water quality.",
+            "Consider changing to a more durable piping material."
+        ]
+    },
+    {
+        "incident_id": "INC018",
+        "equipment": "Hydraulic Press #3",
+        "device": "Upper Die",
+        "category": "Production Loss (Product Jam)",
+        "location": "Processing A Line",
+        "causes": [
+            "Foreign matter fall during die change",
+            "Insufficient cleaning and checking after die change",
+            "Inadequate foreign matter prevention measures"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine and shut off power.",
+            "Remove foreign matter between dies and clean the die.",
+            "Report to relevant personnel and superiors.",
+            "After cleaning, confirm die operation with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Strengthen foreign matter fall prevention measures during die change and ensure thorough cleaning and checking after work.",
+            "Add \\\"presence of foreign matter\\\" and \\\"die clearance check\\\" to the checklist after die change.",
+            "Increase cleaning frequency around the die.",
+            "Consider introducing a foreign matter detection sensor between dies."
+        ]
+    },
+    {
+        "incident_id": "INC019",
+        "equipment": "Hydraulic Press #3",
+        "device": "Upper Die",
+        "category": "Personal Injury (Minor)",
+        "location": "Processing A Line",
+        "causes": [
+            "Non-compliance with safety procedures (insufficient safety pin insertion)",
+            "Insufficient hazard prediction activities before work",
+            "Inadequate die adjustment SOP"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine and shut off power.",
+            "Provide first aid to the injured person and transport to the infirmary.",
+            "Protect the scene and take photographs.",
+            "Conduct initial investigation by interviewing relevant personnel.",
+            "Report to superiors.",
+            "Temporarily suspend die adjustment work."
+        ],
+        "permanent_actions": [
+            "Revise die adjustment SOP to include safety pin insertion procedures and safety checks, and create video manuals.",
+            "Conduct re-education for all workers using the revised SOP and video manuals.",
+            "Mandate hazard prediction training (KYT) for die adjustment work.",
+            "Consider strengthening the interlock of the die fixing mechanism."
+        ]
+    },
+    {
+        "incident_id": "INC020",
+        "equipment": "Hydraulic Press #3",
+        "device": "Upper Die",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Die heater malfunction (aging deterioration)",
+            "Insufficient functional check of heater during regular inspection",
+            "Absence of temperature monitoring system"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine.",
+            "Identify the malfunctioning heater and begin replacement work.",
+            "Heat the die to the specified temperature.",
+            "Report to relevant personnel and superiors.",
+            "After heater replacement, confirm temperature stability with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"resistance value measurement\\\" and \\\"power continuity check\\\" to the die heater's regular inspection items and clarify replacement criteria.",
+            "Consider introducing a system to monitor die temperature in real-time and alert in case of abnormality.",
+            "Secure spare heater stock to enable quick replacement.",
+            "Increase inspection frequency of heater wiring and connections."
+        ]
+    },
+    {
+        "incident_id": "INC021",
+        "equipment": "Welding Robot System #1",
+        "device": "Welding Torch",
+        "category": "Quality Defect (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Insufficient welding torch cleaning/maintenance cycle",
+            "Decreased performance of spatter removal function (e.g., air blow)",
+            "Mismatch between welding conditions and consumable selection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system.",
+            "Disassemble the welding torch and thoroughly remove spatter from inside the nozzle.",
+            "Check torch consumables (tips, nozzles, etc.) and replace heavily worn ones.",
+            "Report to relevant personnel and superiors.",
+            "Fine-tune welding conditions and confirm quality with test welding."
+        ],
+        "permanent_actions": [
+            "Increase inspection frequency of welding torch's automatic spatter removal function and readjust air blow pressure/flow rate.",
+            "Consider changing to a nozzle shape or material less prone to spatter adhesion.",
+            "Clearly state torch cleaning work before welding and at regular intervals in work procedures and ensure thorough implementation.",
+            "Review welding conditions (gas flow rate, wire stick-out, etc.) and improve to suppress spatter generation."
+        ]
+    },
+    {
+        "incident_id": "INC022",
+        "equipment": "Welding Robot System #1",
+        "device": "Welding Torch",
+        "category": "Quality Defect (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Robot program input error",
+            "Insufficient operation check after program modification",
+            "Inadequate program change management process"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system and isolate the defective lot.",
+            "Correct the program offset value and set the correct weld path.",
+            "Perform test welding with the modified program and confirm quality.",
+            "Share status with relevant departments (Production Control, Quality Assurance, Engineering Department)."
+        ],
+        "permanent_actions": [
+            "Strictly enforce robot program change management procedures and mandate double-checking and test welding after changes.",
+            "Record program change history in detail and clarify change content and approvers.",
+            "Strengthen cooperation between offline teaching system and online teaching to reduce human error.",
+            "Consider introducing a sensor to monitor welding quality in real-time."
+        ]
+    },
+    {
+        "incident_id": "INC023",
+        "equipment": "Welding Robot System #1",
+        "device": "Welding Torch",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Deterioration of cooling water hose (aging deterioration)",
+            "Overlooking water leakage during regular inspection",
+            "Inadequate cooling water management standards"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system.",
+            "Identify the cooling water hose leakage point and perform replacement.",
+            "Cool the torch to the specified temperature.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, confirm cooling function and arc stability with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"presence of water leakage\\\" and \\\"deterioration condition of hose\\\" to the cooling water hose's regular inspection items.",
+            "Consider introducing a sensor to monitor cooling water flow rate/temperature and build a system to alert in case of abnormality.",
+            "Review cooling water management standards and thoroughly manage water quality.",
+            "Consider changing to a more durable hose material."
+        ]
+    },
+    {
+        "incident_id": "INC024",
+        "equipment": "Welding Robot System #1",
+        "device": "Welding Torch",
+        "category": "Quality Defect (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Wear of electrode tip (aging deterioration)",
+            "Overlooking regular tip replacement cycle",
+            "Insufficient compatibility between welding conditions and tip"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system.",
+            "Immediately replace the worn electrode tip.",
+            "Fine-tune welding conditions and confirm quality with test welding.",
+            "Share status with relevant departments (Production Control, Quality Assurance)."
+        ],
+        "permanent_actions": [
+            "Clarify regular electrode tip replacement cycle and state it in SOPs.",
+            "Consider introducing a sensor to monitor tip wear condition in real-time.",
+            "Review optimal tip selection criteria according to welding conditions.",
+            "Strengthen quality check steps during tip replacement."
+        ]
+    },
+    {
+        "incident_id": "INC025",
+        "equipment": "Welding Robot System #1",
+        "device": "Welding Torch",
+        "category": "Equipment Damage (During Production)",
+        "location": "Processing A Line",
+        "causes": [
+            "Disconnection of welding torch cable (metal fatigue)",
+            "Insufficient cable protection",
+            "Overlooking cable deterioration during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system and shut off power.",
+            "Identify the disconnection point and begin cable replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After cable replacement, perform power-on test and arc generation check and resume operation."
+        ],
+        "permanent_actions": [
+            "Strengthen welding torch cable protection measures and review wiring considering robot arm movement range.",
+            "Add \\\"presence of disconnection\\\" and \\\"deterioration condition of sheath\\\" to the cable's regular inspection items.",
+            "Consider changing to a more durable cable material.",
+            "Secure spare cable stock to enable quick replacement."
+        ]
+    },
+    {
+        "incident_id": "INC026",
+        "equipment": "Welding Robot System #1",
+        "device": "Welding Torch",
+        "category": "Production Loss (Product Jam)",
+        "location": "Processing A Line",
+        "causes": [
+            "Spatter accumulation inside nozzle",
+            "Insufficient nozzle cleaning frequency",
+            "Decreased performance of spatter removal function"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system.",
+            "Thoroughly remove spatter from inside the nozzle.",
+            "Check shielding gas ejection condition.",
+            "Report to relevant personnel and superiors.",
+            "After cleaning, confirm quality with test welding and resume operation."
+        ],
+        "permanent_actions": [
+            "Shorten welding torch nozzle cleaning cycle and state it in work procedures.",
+            "Increase inspection frequency of automatic spatter removal function and readjust air blow pressure/flow rate.",
+            "Consider changing to a nozzle shape or material less prone to spatter adhesion.",
+            "Consider introducing a sensor to monitor shielding gas flow rate in real-time."
+        ]
+    },
+    {
+        "incident_id": "INC027",
+        "equipment": "Welding Robot System #1",
+        "device": "Welding Torch",
+        "category": "Personal Injury (Minor)",
+        "location": "Processing A Line",
+        "causes": [
+            "Non-compliance with safety procedures (insufficient cooling check)",
+            "Insufficient hazard prediction activities before work",
+            "Inadequate torch replacement SOP"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system and shut off power.",
+            "Provide first aid to the injured person and transport to the infirmary.",
+            "Protect the scene and take photographs.",
+            "Conduct initial investigation by interviewing relevant personnel.",
+            "Report to superiors.",
+            "Temporarily suspend torch replacement work."
+        ],
+        "permanent_actions": [
+            "Revise torch replacement SOP to include cooling check procedures and safety checks, and create video manuals.",
+            "Conduct re-education for all workers using the revised SOP and video manuals.",
+            "Mandate hazard prediction training (KYT) for torch replacement work.",
+            "Consider introducing a device to display torch temperature in real-time."
+        ]
+    },
+    {
+        "incident_id": "INC028",
+        "equipment": "Welding Robot System #1",
+        "device": "Welding Torch",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Damage to gas lens (due to impact)",
+            "Insufficient gas lens check during regular inspection",
+            "Insufficient welding torch protection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system.",
+            "Identify the damaged gas lens and begin replacement work.",
+            "Check shielding gas ejection condition.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, confirm quality with test welding and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"presence of damage\\\" and \\\"mounting condition\\\" to the gas lens's regular inspection items.",
+            "Consider installing a protective cover for the welding torch to strengthen protection against impact.",
+            "Consider introducing a sensor to monitor shielding gas flow rate in real-time.",
+            "Secure spare gas lens stock to enable quick replacement."
+        ]
+    },
+    {
+        "incident_id": "INC029",
+        "equipment": "Welding Robot System #1",
+        "device": "Welding Torch",
+        "category": "Production Loss (Product Jam)",
+        "location": "Processing A Line",
+        "causes": [
+            "Spatter accumulation inside contact tip",
+            "Insufficient contact tip cleaning frequency",
+            "Decreased performance of spatter removal function"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system.",
+            "Thoroughly remove spatter from inside the contact tip.",
+            "Check wire feeding condition.",
+            "Report to relevant personnel and superiors.",
+            "After cleaning, confirm quality with test welding and resume operation."
+        ],
+        "permanent_actions": [
+            "Shorten welding torch contact tip cleaning cycle and state it in work procedures.",
+            "Increase inspection frequency of automatic spatter removal function and readjust air blow pressure/flow rate.",
+            "Consider changing to a contact tip shape or material less prone to spatter adhesion.",
+            "Consider introducing a sensor to detect wire feeding abnormalities."
+        ]
+    },
+    {
+        "incident_id": "INC030",
+        "equipment": "Welding Robot System #1",
+        "device": "Welding Torch",
+        "category": "Quality Defect (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Angle sensor malfunction (aging deterioration)",
+            "Insufficient functional check of sensor during regular inspection",
+            "Absence of abnormality detection system"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system and isolate the defective lot.",
+            "Identify the malfunctioning angle sensor and begin replacement work.",
+            "Perform sensor calibration and set the correct welding angle.",
+            "Share status with relevant departments (Production Control, Quality Assurance, Engineering Department).",
+            "After replacement, confirm quality with test welding and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"operation check\\\" and \\\"accuracy check\\\" to the angle sensor's regular inspection items and clarify replacement criteria.",
+            "Consider introducing a system to monitor welding angle in real-time and alert in case of abnormality.",
+            "Secure spare sensor stock to enable quick replacement.",
+            "Strengthen sensor protection measures to reduce external influences."
+        ]
+    },
+    {
+        "incident_id": "INC031",
+        "equipment": "Welding Robot System #1",
+        "device": "Robot Arm",
+        "category": "Equipment Damage (During Production)",
+        "location": "Processing A Line",
+        "causes": [
+            "Offline teaching program input error",
+            "Insufficient program review during workpiece shape change",
+            "Insufficient robot motion simulation",
+            "Insufficient operation check after teaching data registration"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system and shut off power.",
+            "Detailed check of collision point and photography.",
+            "Contact robot manufacturer's service representative and request repair.",
+            "Share status with relevant departments (Production Control, Engineering Department).",
+            "Begin analyzing robot operation logs."
+        ],
+        "permanent_actions": [
+            "Strictly enforce offline teaching data creation procedures during workpiece shape changes and introduce a program review process by multiple independent individuals.",
+            "Mandate motion verification (interference check) in a virtual simulation environment before teaching data registration.",
+            "Add a procedure to gradually increase teaching playback speed during initial production and meticulously check for abnormalities.",
+            "Review robot collision detection sensitivity settings and strengthen emergency stop protocols in case of collision."
+        ]
+    },
+    {
+        "incident_id": "INC032",
+        "equipment": "Welding Robot System #1",
+        "device": "Robot Arm",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Insufficient motor cooling",
+            "Overload due to long continuous operation",
+            "Insufficient motor temperature check during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system and shut off power.",
+            "Cool the motor and wait for the temperature to drop to the specified value.",
+            "Report to relevant personnel and superiors.",
+            "After cooling, confirm operation with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Increase inspection frequency of motor cooling device and ensure thorough cleaning.",
+            "Review robot operation schedule and provide appropriate rest periods.",
+            "Consider introducing a system to monitor motor temperature in real-time and alert in case of abnormality.",
+            "Secure spare motor stock to enable quick replacement."
+        ]
+    },
+    {
+        "incident_id": "INC033",
+        "equipment": "Welding Robot System #1",
+        "device": "Robot Arm",
+        "category": "Personal Injury (Minor)",
+        "location": "Processing A Line",
+        "causes": [
+            "Non-compliance with safety procedures (insufficient power shutdown, no safety fence installed)",
+            "Insufficient hazard prediction activities before work",
+            "Inadequate maintenance SOP"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system and shut off power.",
+            "Provide first aid to the injured person and transport to the infirmary, then to the affiliated hospital.",
+            "Protect the scene and take photographs.",
+            "Conduct initial investigation by interviewing relevant personnel.",
+            "Report to superiors.",
+            "Temporarily suspend maintenance work."
+        ],
+        "permanent_actions": [
+            "Revise maintenance SOP to mandate power shutdown (LOTO) procedures and safety fence installation.",
+            "Conduct re-education for all workers using the revised SOP and video manuals.",
+            "Mandate hazard prediction training (KYT) for maintenance work.",
+            "Consider introducing an intrusion detection sensor within the robot's movable range."
+        ]
+    },
+    {
+        "incident_id": "INC034",
+        "equipment": "Welding Robot System #1",
+        "device": "Robot Arm",
+        "category": "Equipment Damage (During Production)",
+        "location": "Processing A Line",
+        "causes": [
+            "Disconnection of robot arm cable (metal fatigue)",
+            "Cable aging deterioration",
+            "Overlooking cable deterioration during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system and shut off power.",
+            "Identify the disconnection point and begin cable replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After cable replacement, perform power-on test and operation check and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"presence of disconnection\\\" and \\\"deterioration condition of sheath\\\" to the robot arm cable's regular inspection items.",
+            "Consider changing to a more durable cable material.",
+            "Strengthen cable protection measures to protect against repetitive stress.",
+            "Secure spare cable stock to enable quick replacement."
+        ]
+    },
+    {
+        "incident_id": "INC035",
+        "equipment": "Welding Robot System #1",
+        "device": "Robot Arm",
+        "category": "Production Loss (Product Jam)",
+        "location": "Processing A Line",
+        "causes": [
+            "Wear of gripper jaws",
+            "Insufficient gripper check during regular inspection",
+            "Insufficient compatibility between gripper selection and product"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system.",
+            "Replace the worn gripper jaws.",
+            "Adjust gripper gripping force.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, confirm gripping force with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"jaw wear condition\\\" and \\\"gripping force\\\" to the gripper's regular inspection items and clarify replacement criteria.",
+            "Consider changing to a more durable gripper material.",
+            "Consider introducing a sensor to monitor gripper gripping force in real-time.",
+            "Review optimal gripper selection criteria according to product shape."
+        ]
+    },
+    {
+        "incident_id": "INC036",
+        "equipment": "Welding Robot System #1",
+        "device": "Robot Arm",
+        "category": "Quality Defect (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Control system software bug",
+            "Insufficient operation check after program modification",
+            "Inadequate software change management process"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system and isolate the defective lot.",
+            "Modify the control system software and restart.",
+            "Perform test welding with the modified program and confirm quality.",
+            "Share status with relevant departments (Production Control, Quality Assurance, Engineering Department)."
+        ],
+        "permanent_actions": [
+            "Strictly enforce control system software change management procedures and mandate double-checking and test welding after changes.",
+            "Record software change history in detail and clarify change content and approvers.",
+            "Consider introducing a sensor to monitor robot posture in real-time.",
+            "Thoroughly implement regular backup and version management of the control system."
+        ]
+    },
+    {
+        "incident_id": "INC037",
+        "equipment": "Welding Robot System #1",
+        "device": "Robot Arm",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Wear of gears inside reducer (aging deterioration)",
+            "Insufficient reducer inspection during regular maintenance",
+            "Delay in early detection of abnormal noise"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system and shut off power.",
+            "Identify the reducer and begin replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After reducer replacement, confirm operation with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Clarify regular reducer maintenance cycle and state it in SOPs.",
+            "Consider introducing a sensor to detect abnormal noise or vibration from the reducer and build an early alert system.",
+            "Secure spare reducer stock to enable quick replacement.",
+            "Review lubrication oil replacement frequency and type."
+        ]
+    },
+    {
+        "incident_id": "INC038",
+        "equipment": "Welding Robot System #1",
+        "device": "Robot Arm",
+        "category": "Personal Injury (Minor)",
+        "location": "Processing A Line",
+        "causes": [
+            "Non-compliance with safety procedures (insufficient power shutdown)",
+            "Insufficient hazard prediction activities before work",
+            "Inadequate cleaning work SOP"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system and shut off power.",
+            "Provide first aid to the injured person and transport to the infirmary.",
+            "Protect the scene and take photographs.",
+            "Conduct initial investigation by interviewing relevant personnel.",
+            "Report to superiors.",
+            "Temporarily suspend cleaning work."
+        ],
+        "permanent_actions": [
+            "Revise cleaning work SOP to include power shutdown (LOTO) procedures and safety checks, and create video manuals.",
+            "Conduct re-education for all workers using the revised SOP and video manuals.",
+            "Mandate hazard prediction training (KYT) for cleaning work.",
+            "Consider installing a safety cover on the robot arm's movable part."
+        ]
+    },
+    {
+        "incident_id": "INC039",
+        "equipment": "Welding Robot System #1",
+        "device": "Robot Arm",
+        "category": "Production Loss (Product Jam)",
+        "location": "Processing A Line",
+        "causes": [
+            "Inadequate cable wiring method",
+            "Deterioration of cable guide",
+            "Insufficient cable check during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system.",
+            "Untangle the tangled cables and rewire them to the correct position.",
+            "Check the condition of the cable guide and replace if necessary.",
+            "Report to relevant personnel and superiors.",
+            "After wiring correction, confirm operation with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Review cable wiring method and change to a structure less prone to tangling.",
+            "Add \\\"deterioration condition\\\" and \\\"fixing condition\\\" to the cable guide's regular inspection items and clarify replacement criteria.",
+            "Strengthen cable protection measures to reduce external influences.",
+            "Secure spare cable stock to enable quick replacement."
+        ]
+    },
+    {
+        "incident_id": "INC040",
+        "equipment": "Welding Robot System #1",
+        "device": "Robot Arm",
+        "category": "Quality Defect (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Encoder malfunction (aging deterioration)",
+            "Insufficient functional check of encoder during regular inspection",
+            "Absence of position accuracy monitoring system"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system and isolate the defective lot.",
+            "Identify the malfunctioning encoder and begin replacement work.",
+            "Perform encoder calibration and set the correct position.",
+            "Share status with relevant departments (Production Control, Quality Assurance, Engineering Department).",
+            "After replacement, confirm quality with test welding and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"operation check\\\" and \\\"accuracy check\\\" to the encoder's regular inspection items and clarify replacement criteria.",
+            "Consider introducing a system to monitor robot position accuracy in real-time and alert in case of abnormality.",
+            "Secure spare encoder stock to enable quick replacement.",
+            "Strengthen encoder protection measures to reduce external influences."
+        ]
+    },
+    {
+        "incident_id": "INC041",
+        "equipment": "Welding Robot System #1",
+        "device": "Wire Feeder",
+        "category": "Production Stoppage (Equipment Trouble)",
+        "location": "Processing A Line",
+        "causes": [
+            "Insufficient regular cleaning of wire feeder",
+            "Metal powder generation due to wear of wire guide tube",
+            "Insufficient compatibility between welding wire selection and equipment"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system.",
+            "Disassemble the wire feeder and thoroughly remove accumulated metal powder.",
+            "Check the inner surface of the guide tube and clean or replace if necessary.",
+            "Report to relevant personnel and superiors.",
+            "Reset the wire and confirm normal operation with a feeding test."
+        ],
+        "permanent_actions": [
+            "Shorten regular cleaning cycle of wire feeder and state it in work procedures.",
+            "Add guide tube wear condition to inspection items and recommend regular replacement.",
+            "Consider changing to a lower friction guide tube material or improving wire lubricity.",
+            "Consider introducing a sensor to detect wire feeding abnormalities."
+        ]
+    },
+    {
+        "incident_id": "INC042",
+        "equipment": "Welding Robot System #1",
+        "device": "Wire Feeder",
+        "category": "Quality Defect (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Wear of roller (aging deterioration)",
+            "Overlooking regular roller replacement cycle",
+            "Insufficient maintenance of wire feeder"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system.",
+            "Immediately replace the worn roller.",
+            "Adjust wire feeding condition and confirm quality with test welding.",
+            "Share status with relevant departments (Production Control, Quality Assurance)."
+        ],
+        "permanent_actions": [
+            "Clarify regular roller replacement cycle and state it in SOPs.",
+            "Consider introducing a sensor to monitor roller wear condition in real-time.",
+            "Add \\\"roller inspection\\\" to the wire feeder's regular maintenance items.",
+            "Secure spare roller stock to enable quick replacement."
+        ]
+    },
+    {
+        "incident_id": "INC043",
+        "equipment": "Welding Robot System #1",
+        "device": "Wire Feeder",
+        "category": "Equipment Damage (During Production)",
+        "location": "Processing A Line",
+        "causes": [
+            "Motor malfunction (aging deterioration)",
+            "Seizure due to overload",
+            "Insufficient functional check of motor during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system and shut off power.",
+            "Identify the malfunctioning motor and begin replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After motor replacement, perform power-on test and wire feeding check and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"presence of abnormal noise/vibration\\\" and \\\"temperature check\\\" to the motor's regular inspection items and clarify replacement criteria.",
+            "Review and adjust the sensitivity setting of the motor's overload protection device to an appropriate value.",
+            "Secure spare motor stock to enable quick replacement.",
+            "Consider measures to reduce the load on the wire feeder."
+        ]
+    },
+    {
+        "incident_id": "INC044",
+        "equipment": "Welding Robot System #1",
+        "device": "Wire Feeder",
+        "category": "Production Loss (Product Jam)",
+        "location": "Processing A Line",
+        "causes": [
+            "Metal powder/spatter accumulation inside guide tube",
+            "Insufficient guide tube cleaning frequency",
+            "Wear of guide tube"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system.",
+            "Thoroughly remove clogs from inside the guide tube.",
+            "Check the inner surface of the guide tube and clean or replace if necessary.",
+            "Report to relevant personnel and superiors.",
+            "After cleaning, confirm normal operation with a wire feeding test and resume operation."
+        ],
+        "permanent_actions": [
+            "Shorten regular cleaning cycle of guide tube and state it in work procedures.",
+            "Add guide tube wear condition to inspection items and recommend regular replacement.",
+            "Consider changing to a lower friction guide tube material or improving wire lubricity.",
+            "Consider introducing a sensor to detect wire feeding abnormalities."
+        ]
+    },
+    {
+        "incident_id": "INC045",
+        "equipment": "Welding Robot System #1",
+        "device": "Wire Feeder",
+        "category": "Personal Injury (Minor)",
+        "location": "Processing A Line",
+        "causes": [
+            "Non-compliance with safety procedures (insufficient power shutdown)",
+            "Insufficient hazard prediction activities before work",
+            "Inadequate wire replacement SOP"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system and shut off power.",
+            "Provide first aid to the injured person and transport to the infirmary.",
+            "Protect the scene and take photographs.",
+            "Conduct initial investigation by interviewing relevant personnel.",
+            "Report to superiors.",
+            "Temporarily suspend wire replacement work."
+        ],
+        "permanent_actions": [
+            "Revise wire replacement SOP to include power shutdown (LOTO) procedures and safety checks, and create video manuals.",
+            "Conduct re-education for all workers using the revised SOP and video manuals.",
+            "Mandate hazard prediction training (KYT) for wire replacement work.",
+            "Consider installing a safety cover on the roller section."
+        ]
+    },
+    {
+        "incident_id": "INC046",
+        "equipment": "Welding Robot System #1",
+        "device": "Wire Feeder",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Control board malfunction (aging deterioration)",
+            "Influence of electrical noise",
+            "Insufficient control board check during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system and shut off power.",
+            "Identify the malfunctioning control board and begin replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After control board replacement, perform power-on test and wire feeding check and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"visual check\\\" and \\\"operation check\\\" to the control board's regular inspection items and clarify replacement criteria.",
+            "Strengthen electrical noise countermeasures, review shielding cable usage and grounding.",
+            "Secure spare control board stock to enable quick replacement.",
+            "Increase cleaning frequency inside the control panel."
+        ]
+    },
+    {
+        "incident_id": "INC047",
+        "equipment": "Welding Robot System #1",
+        "device": "Wire Feeder",
+        "category": "Quality Defect (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Improper tension adjustment",
+            "Insufficient tension check during regular inspection",
+            "Insufficient maintenance of wire feeder"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system.",
+            "Adjust the wire feeder tension to the specified value.",
+            "Perform test welding and confirm quality.",
+            "Share status with relevant departments (Production Control, Quality Assurance)."
+        ],
+        "permanent_actions": [
+            "Add wire feeder tension adjustment to regular maintenance items and state it in SOPs.",
+            "Consider introducing a tension meter and thoroughly manage numerical values.",
+            "Add \\\"tension adjustment\\\" to the wire feeder's regular maintenance items.",
+            "Conduct re-education for workers on the importance and procedures of tension adjustment."
+        ]
+    },
+    {
+        "incident_id": "INC048",
+        "equipment": "Welding Robot System #1",
+        "device": "Wire Feeder",
+        "category": "Production Loss (Product Jam)",
+        "location": "Processing A Line",
+        "causes": [
+            "Improper wire reel setup",
+            "Poor wire quality (e.g., coil set)",
+            "Insufficient wire reel check during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system.",
+            "Untangle the tangled wire and reset the wire reel correctly.",
+            "Check wire quality.",
+            "Report to relevant personnel and superiors.",
+            "After resetting, confirm normal operation with a wire feeding test and resume operation."
+        ],
+        "permanent_actions": [
+            "Clearly state wire reel setup procedures in SOPs and re-educate workers.",
+            "Strengthen wire quality control and eliminate defective products such as those with coil set.",
+            "Add \\\"presence of tangles\\\" and \\\"setup condition\\\" to the wire reel's regular inspection items.",
+            "Consider introducing a sensor to detect wire feeding abnormalities."
+        ]
+    },
+    {
+        "incident_id": "INC049",
+        "equipment": "Welding Robot System #1",
+        "device": "Wire Feeder",
+        "category": "Personal Injury (Minor)",
+        "location": "Processing A Line",
+        "causes": [
+            "Non-compliance with safety procedures (insufficient power shutdown, live work)",
+            "Insufficient hazard prediction activities before work",
+            "Inadequate maintenance SOP"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system and shut off power.",
+            "Provide first aid to the injured person and transport to the infirmary.",
+            "Protect the scene and take photographs.",
+            "Conduct initial investigation by interviewing relevant personnel.",
+            "Report to superiors.",
+            "Temporarily suspend maintenance work."
+        ],
+        "permanent_actions": [
+            "Revise maintenance SOP to include power shutdown (LOTO) procedures and safety checks, and create video manuals.",
+            "Conduct re-education for all workers using the revised SOP and video manuals.",
+            "Mandate hazard prediction training (KYT) for maintenance work.",
+            "Thoroughly prohibit live work and mandate the use of safety voltmeters."
+        ]
+    },
+    {
+        "incident_id": "INC050",
+        "equipment": "Welding Robot System #1",
+        "device": "Wire Feeder",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Cooling fan malfunction (aging deterioration)",
+            "Insufficient functional check of cooling fan during regular inspection",
+            "Absence of abnormality detection system"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system and shut off power.",
+            "Identify the malfunctioning cooling fan and begin replacement work.",
+            "Cool the motor and wait for the temperature to drop to the specified value.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, perform cooling function and wire feeding check with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"operation check\\\" and \\\"presence of abnormal noise\\\" to the cooling fan's regular inspection items and clarify replacement criteria.",
+            "Consider introducing a system to monitor motor temperature in real-time and alert in case of abnormality.",
+            "Secure spare cooling fan stock to enable quick replacement.",
+            "Increase cleaning frequency of cooling fan filter."
+        ]
+    },
+    {
+        "incident_id": "INC051",
+        "equipment": "Hydraulic Press #3",
+        "device": "Sensor",
+        "category": "Production Stoppage (Malfunction)",
+        "location": "Processing A Line",
+        "causes": [
+            "Contamination of product passage detection sensor (dust adhesion)",
+            "Insufficient daily inspection items for sensor cleaning",
+            "Inadequate sensor installation environment (insufficient dust protection)",
+            "Improper sensor sensitivity setting"
+        ],
+        "immediate_actions": [
+            "Stop the press machine.",
+            "Check the lens of the product passage detection sensor and clean off adhering dust.",
+            "Readjust sensor sensitivity and confirm normal operation.",
+            "Report to relevant personnel and superiors.",
+            "After sensor operation confirmation, resume production."
+        ],
+        "permanent_actions": [
+            "Clearly state daily cleaning of the product passage detection sensor in work procedures and ensure thorough implementation.",
+            "Increase cleaning frequency around sensor installation locations and strengthen dust protection measures (e.g., install dust covers, consider air curtains).",
+            "Review sensor sensitivity setting criteria and consider settings robust to environmental changes.",
+            "Consider optimizing sensor mounting angle and position."
+        ]
+    },
+    {
+        "incident_id": "INC052",
+        "equipment": "Hydraulic Press #3",
+        "device": "Sensor",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Safety sensor malfunction (aging deterioration)",
+            "Insufficient functional check of sensor during regular inspection",
+            "Absence of abnormality detection system"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine and shut off power.",
+            "Identify the malfunctioning safety sensor and begin replacement work.",
+            "Perform sensor operation check.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, confirm safety function with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"operation check\\\" and \\\"accuracy check\\\" to the safety sensor's regular inspection items and clarify replacement criteria.",
+            "Secure spare sensor stock to enable quick replacement.",
+            "Strengthen sensor protection measures to reduce external influences.",
+            "Consider duplicating the safety door interlock mechanism."
+        ]
+    },
+    {
+        "incident_id": "INC053",
+        "equipment": "Hydraulic Press #3",
+        "device": "Sensor",
+        "category": "Personal Injury (Minor)",
+        "location": "Processing A Line",
+        "causes": [
+            "Insufficient worker safety awareness",
+            "Non-compliance with work procedures",
+            "Insufficient hazard prediction activities"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine and shut off power.",
+            "Provide warnings and safety guidance to workers.",
+            "Conduct initial investigation by interviewing relevant personnel.",
+            "Report to superiors.",
+            "After safety confirmation, restart the press machine."
+        ],
+        "permanent_actions": [
+            "Conduct re-education for workers on prohibiting entry into safety areas and the importance of photoelectric sensors.",
+            "Mandate hazard prediction training (KYT) before work.",
+            "Review photoelectric sensor installation position and sensitivity to reduce the risk of accidental blocking.",
+            "Consider introducing a system that emits a warning sound when intrusion into the safety area is detected."
+        ]
+    },
+    {
+        "incident_id": "INC054",
+        "equipment": "Hydraulic Press #3",
+        "device": "Sensor",
+        "category": "Equipment Damage (During Production)",
+        "location": "Processing A Line",
+        "causes": [
+            "Pressure sensor malfunction (aging deterioration)",
+            "Insufficient functional check of sensor during regular inspection",
+            "Absence of pressure monitoring system"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine and shut off power.",
+            "Identify the malfunctioning pressure sensor and begin replacement work.",
+            "Remove the damaged die and arrange for repair or a replacement.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, confirm pressure stability with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"operation check\\\" and \\\"accuracy check\\\" to the pressure sensor's regular inspection items and clarify replacement criteria.",
+            "Consider introducing a system to monitor press pressure in real-time and alert in case of abnormality.",
+            "Secure spare sensor stock to enable quick replacement.",
+            "Consider strengthening the die's overload protection mechanism."
+        ]
+    },
+    {
+        "incident_id": "INC055",
+        "equipment": "Hydraulic Press #3",
+        "device": "Sensor",
+        "category": "Production Loss (Product Jam)",
+        "location": "Processing A Line",
+        "causes": [
+            "Contamination of material supply sensor (dust adhesion)",
+            "Insufficient daily inspection items for sensor cleaning",
+            "Inadequate sensor installation environment (insufficient dust protection)"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine.",
+            "Check the lens of the material supply sensor and clean off adhering dust.",
+            "Readjust sensor sensitivity and confirm normal operation.",
+            "Report to relevant personnel and superiors.",
+            "After cleaning, confirm material supply with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Clearly state daily cleaning of the material supply sensor in work procedures and ensure thorough implementation.",
+            "Increase cleaning frequency around sensor installation locations and strengthen dust protection measures.",
+            "Review sensor sensitivity setting criteria and consider settings robust to environmental changes.",
+            "Consider optimizing sensor mounting angle and position."
+        ]
+    },
+    {
+        "incident_id": "INC056",
+        "equipment": "Hydraulic Press #3",
+        "device": "Sensor",
+        "category": "Quality Defect (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Temperature sensor malfunction (aging deterioration)",
+            "Insufficient functional check of sensor during regular inspection",
+            "Absence of temperature monitoring system"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine and isolate the defective lot.",
+            "Identify the malfunctioning temperature sensor and begin replacement work.",
+            "Adjust the press machine temperature to the specified value.",
+            "Share status with relevant departments (Production Control, Quality Assurance).",
+            "After replacement, confirm temperature stability with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"operation check\\\" and \\\"accuracy check\\\" to the temperature sensor's regular inspection items and clarify replacement criteria.",
+            "Consider introducing a system to monitor press machine temperature in real-time and alert in case of abnormality.",
+            "Secure spare sensor stock to enable quick replacement.",
+            "Consider duplicating the temperature control system."
+        ]
+    },
+    {
+        "incident_id": "INC057",
+        "equipment": "Hydraulic Press #3",
+        "device": "Sensor",
+        "category": "Equipment Damage (During Production)",
+        "location": "Processing A Line",
+        "causes": [
+            "Positioning sensor malfunction (aging deterioration)",
+            "Insufficient functional check of sensor during regular inspection",
+            "Absence of positioning monitoring system"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine and shut off power.",
+            "Identify the malfunctioning positioning sensor and begin replacement work.",
+            "Remove the damaged die and arrange for repair or a replacement.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, confirm positioning accuracy with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"operation check\\\" and \\\"accuracy check\\\" to the positioning sensor's regular inspection items and clarify replacement criteria.",
+            "Consider introducing a system to monitor die position in real-time and alert in case of abnormality.",
+            "Secure spare sensor stock to enable quick replacement.",
+            "Consider strengthening the die collision prevention mechanism."
+        ]
+    },
+    {
+        "incident_id": "INC058",
+        "equipment": "Hydraulic Press #3",
+        "device": "Sensor",
+        "category": "Personal Injury (Minor)",
+        "location": "Processing A Line",
+        "causes": [
+            "Insufficient worker safety awareness",
+            "Non-compliance with work procedures",
+            "Insufficient hazard prediction activities"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine and shut off power.",
+            "Provide warnings and safety guidance to workers.",
+            "Conduct initial investigation by interviewing relevant personnel.",
+            "Report to superiors.",
+            "After safety confirmation, restart the press machine."
+        ],
+        "permanent_actions": [
+            "Conduct re-education for workers on the importance of emergency stop buttons and preventing accidental operation.",
+            "Mandate hazard prediction training (KYT) before work.",
+            "Consider installing a protective cover for the emergency stop button to reduce the risk of accidental operation.",
+            "Review emergency stop button installation position and operability."
+        ]
+    },
+    {
+        "incident_id": "INC059",
+        "equipment": "Hydraulic Press #3",
+        "device": "Sensor",
+        "category": "Production Loss (Product Jam)",
+        "location": "Processing A Line",
+        "causes": [
+            "Contamination of product discharge sensor (dust adhesion)",
+            "Insufficient daily inspection items for sensor cleaning",
+            "Inadequate sensor installation environment (insufficient dust protection)"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine.",
+            "Check the lens of the product discharge sensor and clean off adhering dust.",
+            "Readjust sensor sensitivity and confirm normal operation.",
+            "Report to relevant personnel and superiors.",
+            "After cleaning, confirm product discharge with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Clearly state daily cleaning of the product discharge sensor in work procedures and ensure thorough implementation.",
+            "Increase cleaning frequency around sensor installation locations and strengthen dust protection measures.",
+            "Review sensor sensitivity setting criteria and consider settings robust to environmental changes.",
+            "Consider optimizing sensor mounting angle and position."
+        ]
+    },
+    {
+        "incident_id": "INC060",
+        "equipment": "Hydraulic Press #3",
+        "device": "Sensor",
+        "category": "Quality Defect (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Material thickness sensor malfunction (aging deterioration)",
+            "Insufficient functional check of sensor during regular inspection",
+            "Absence of thickness monitoring system"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine and isolate the defective lot.",
+            "Identify the malfunctioning thickness sensor and begin replacement work.",
+            "Perform sensor calibration and set the correct thickness.",
+            "Share status with relevant departments (Production Control, Quality Assurance).",
+            "After replacement, confirm thickness accuracy with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"operation check\\\" and \\\"accuracy check\\\" to the material thickness sensor's regular inspection items and clarify replacement criteria.",
+            "Consider introducing a system to monitor material thickness in real-time and alert in case of abnormality.",
+            "Secure spare sensor stock to enable quick replacement.",
+            "Increase cleaning frequency of the material supply unit."
+        ]
+    },
+    {
+        "incident_id": "INC061",
+        "equipment": "Hydraulic Press #3",
+        "device": "Motor",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Insufficient regular maintenance of drive motor (overlooking bearing replacement timing)",
+            "Insufficient worker awareness of initial abnormal noise from drive unit",
+            "Absence of abnormality detection system"
+        ],
+        "immediate_actions": [
+            "Shut down power to the press machine and conveyor.",
+            "Manually collect and organize accumulated products.",
+            "Inspect the drive motor and identify the cause of failure.",
+            "Arrange for a repair technician and perform bearing replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After repair completion, confirm functionality and resume operation."
+        ],
+        "permanent_actions": [
+            "Formulate a preventive maintenance plan for the conveyor drive motor and clarify the regular bearing replacement cycle.",
+            "Consider introducing a sensor to detect abnormal noise or vibration from the drive unit and build a system to alert in case of abnormality.",
+            "Conduct training for workers to detect and report abnormal equipment noises or smells early.",
+            "Secure spare stock of important drive components."
+        ]
+    },
+    {
+        "incident_id": "INC062",
+        "equipment": "Hydraulic Press #3",
+        "device": "Motor",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Excessive product supply from the previous process",
+            "Conveyor belt wear causing slippage",
+            "Improper sensitivity setting of the overload protection device"
+        ],
+        "immediate_actions": [
+            "Shut down power to the press machine and conveyor.",
+            "Manually collect and organize accumulated products.",
+            "Adjust conveyor belt tension to eliminate slippage.",
+            "Reset the motor's overload protection device and attempt to restart.",
+            "Report to relevant personnel and superiors.",
+            "After restarting, confirm functionality and resume operation."
+        ],
+        "permanent_actions": [
+            "Strengthen coordination with the previous process to thoroughly adjust product supply.",
+            "Add \\\"tension\\\" and \\\"wear condition\\\" to the conveyor belt's regular inspection items and clarify replacement criteria.",
+            "Review and adjust the sensitivity setting of the motor's overload protection device to an appropriate value.",
+            "Consider introducing a sensor to detect product accumulation on the conveyor."
+        ]
+    },
+    {
+        "incident_id": "INC063",
+        "equipment": "Hydraulic Press #3",
+        "device": "Motor",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Insufficient bearing lubrication",
+            "Overlooking regular replacement timing",
+            "Delay in early detection of abnormal noise"
+        ],
+        "immediate_actions": [
+            "Shut down power to the press machine and conveyor.",
+            "Identify the seized bearing and begin replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After bearing replacement, lubricate, confirm functionality and resume operation."
+        ],
+        "permanent_actions": [
+            "Clarify regular bearing lubrication and replacement cycles and state them in SOPs.",
+            "Optimize the type and amount of lubricant.",
+            "Consider introducing a sensor to detect abnormal noise and build an early alert system.",
+            "Conduct training for workers to detect and report abnormal equipment noises early."
+        ]
+    },
+    {
+        "incident_id": "INC064",
+        "equipment": "Hydraulic Press #3",
+        "device": "Motor",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Moisture ingress into control panel",
+            "Insufficient waterproofing/moisture-proofing measures for control panel",
+            "Insufficient internal control panel check during regular inspection"
+        ],
+        "immediate_actions": [
+            "Shut down power to the press machine and conveyor.",
+            "Identify the short-circuited area inside the control panel and begin repair or replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After repair or replacement, perform power-on test and functional check and resume operation."
+        ],
+        "permanent_actions": [
+            "Strengthen waterproofing/moisture-proofing measures for the control panel and review installation environment.",
+            "Add \\\"presence of moisture/condensation\\\" and \\\"insulation condition of wiring\\\" to the control panel's regular internal inspection items.",
+            "Increase cleaning frequency of control panel cooling fan filter.",
+            "Secure spare control panel stock to enable quick replacement."
+        ]
+    },
+    {
+        "incident_id": "INC065",
+        "equipment": "Welding Robot System #1",
+        "device": "Motor",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Insufficient motor cooling",
+            "Overload due to long continuous operation",
+            "Insufficient motor temperature check during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system and shut off power.",
+            "Cool the motor and wait for the temperature to drop to the specified value.",
+            "Report to relevant personnel and superiors.",
+            "After cooling, confirm operation with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Increase inspection frequency of motor cooling device and ensure thorough cleaning.",
+            "Review robot operation schedule and provide appropriate rest periods.",
+            "Consider introducing a system to monitor motor temperature in real-time and alert in case of abnormality.",
+            "Secure spare motor stock to enable quick replacement."
+        ]
+    },
+    {
+        "incident_id": "INC066",
+        "equipment": "Welding Robot System #1",
+        "device": "Motor",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Motor malfunction (aging deterioration)",
+            "Seizure due to overload",
+            "Insufficient functional check of motor during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system and shut off power.",
+            "Identify the malfunctioning motor and begin replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After motor replacement, perform power-on test and wire feeding check and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"presence of abnormal noise/vibration\\\" and \\\"temperature check\\\" to the motor's regular inspection items and clarify replacement criteria.",
+            "Review and adjust the sensitivity setting of the motor's overload protection device to an appropriate value.",
+            "Secure spare motor stock to enable quick replacement.",
+            "Consider measures to reduce the load on the wire feeder."
+        ]
+    },
+    {
+        "incident_id": "INC067",
+        "equipment": "Welding Robot System #1",
+        "device": "Motor",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Cooling fan malfunction (aging deterioration)",
+            "Insufficient functional check of cooling fan during regular inspection",
+            "Absence of abnormality detection system"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system and shut off power.",
+            "Identify the malfunctioning cooling fan and begin replacement work.",
+            "Cool the motor and wait for the temperature to drop to the specified value.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, perform cooling function and wire feeding check with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"operation check\\\" and \\\"presence of abnormal noise\\\" to the cooling fan's regular inspection items and clarify replacement criteria.",
+            "Consider introducing a system to monitor motor temperature in real-time and alert in case of abnormality.",
+            "Secure spare cooling fan stock to enable quick replacement.",
+            "Increase cleaning frequency of cooling fan filter."
+        ]
+    },
+    {
+        "incident_id": "INC068",
+        "equipment": "Transfer Robot System #2",
+        "device": "Motor",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing B Line",
+        "causes": [
+            "Drive motor malfunction (aging deterioration)",
+            "Overload due to long continuous operation",
+            "Insufficient functional check of motor during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the transfer robot system and shut off power.",
+            "Identify the malfunctioning drive motor and begin replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After motor replacement, perform operation check with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"presence of abnormal noise/vibration\\\" and \\\"temperature check\\\" to the drive motor's regular inspection items and clarify replacement criteria.",
+            "Review robot operation schedule and provide appropriate rest periods.",
+            "Consider introducing a system to monitor motor temperature in real-time and alert in case of abnormality.",
+            "Secure spare motor stock to enable quick replacement."
+        ]
+    },
+    {
+        "incident_id": "INC069",
+        "equipment": "Compressor #1",
+        "device": "Motor",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Utility",
+        "causes": [
+            "Insufficient motor cooling",
+            "Increased intake resistance due to filter clogging",
+            "Insufficient motor temperature check during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the compressor and shut off power.",
+            "Cool the motor and clean or replace the filter.",
+            "Report to relevant personnel and superiors.",
+            "After cooling, confirm operation with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Increase inspection frequency of motor cooling device and ensure thorough cleaning.",
+            "Clarify air filter cleaning/replacement cycle and state it in SOPs.",
+            "Consider introducing a system to monitor motor temperature in real-time and alert in case of abnormality.",
+            "Secure spare motor stock to enable quick replacement."
+        ]
+    },
+    {
+        "incident_id": "INC070",
+        "equipment": "Cooling Water Supply Pump #1",
+        "device": "Motor",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing B Line",
+        "causes": [
+            "Pump drive motor malfunction (aging deterioration)",
+            "Insufficient regular maintenance (overlooking bearing replacement timing)",
+            "Delay in early detection of abnormal noise"
+        ],
+        "immediate_actions": [
+            "Emergency stop the pump and shut off power.",
+            "Identify the malfunctioning drive motor and begin replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After motor replacement, perform operation check with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Clarify regular pump drive motor maintenance cycle and state it in SOPs.",
+            "Consider introducing a sensor to detect abnormal noise or vibration from the drive unit and build an early alert system.",
+            "Secure spare motor stock to enable quick replacement.",
+            "Review lubrication oil replacement frequency and type."
+        ]
+    },
+    {
+        "incident_id": "INC071",
+        "equipment": "Hydraulic Press #3",
+        "device": "Control Panel",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Control panel power supply unit malfunction (aging deterioration)",
+            "Influence of overvoltage",
+            "Insufficient internal control panel check during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine and shut off power.",
+            "Identify the malfunctioning part inside the control panel and begin repair or replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After repair or replacement, perform power-on test and functional check and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"voltage measurement\\\" and \\\"visual check\\\" to the control panel power supply unit's regular inspection items and clarify replacement criteria.",
+            "Consider introducing an overvoltage protection device to stabilize power quality.",
+            "Secure spare control panel stock to enable quick replacement.",
+            "Increase cleaning frequency inside the control panel."
+        ]
+    },
+    {
+        "incident_id": "INC072",
+        "equipment": "Welding Robot System #1",
+        "device": "Control Panel",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Control panel CPU board malfunction (aging deterioration)",
+            "Influence of electrical noise",
+            "Insufficient internal control panel check during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot system and shut off power.",
+            "Identify the malfunctioning part inside the control panel and begin replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, perform power-on test and functional check and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"operation check\\\" and \\\"abnormality history check\\\" to the control panel CPU board's regular inspection items and clarify replacement criteria.",
+            "Strengthen electrical noise countermeasures, review shielding cable usage and grounding.",
+            "Secure spare control panel stock to enable quick replacement.",
+            "Increase cleaning frequency inside the control panel."
+        ]
+    },
+    {
+        "incident_id": "INC073",
+        "equipment": "Transfer Robot System #2",
+        "device": "Control Panel",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing B Line",
+        "causes": [
+            "Control panel communication module malfunction (aging deterioration)",
+            "Influence of network failure",
+            "Insufficient internal control panel check during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the transfer robot system and shut off power.",
+            "Identify the malfunctioning part inside the control panel and begin replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, perform power-on test and functional check and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"communication status check\\\" and \\\"abnormality history check\\\" to the control panel communication module's regular inspection items and clarify replacement criteria.",
+            "Strengthen network stability improvement measures, introduce redundancy and monitoring systems.",
+            "Secure spare control panel stock to enable quick replacement.",
+            "Increase cleaning frequency inside the control panel."
+        ]
+    },
+    {
+        "incident_id": "INC074",
+        "equipment": "Inspection Device #1",
+        "device": "Control Panel",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing B Line",
+        "causes": [
+            "Control panel I/O board malfunction (aging deterioration)",
+            "Influence of external surge voltage",
+            "Insufficient internal control panel check during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the inspection device and shut off power.",
+            "Identify the malfunctioning part inside the control panel and begin replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, perform power-on test and functional check and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"operation check\\\" and \\\"abnormality history check\\\" to the control panel I/O board's regular inspection items and clarify replacement criteria.",
+            "Consider introducing a surge protection device to suppress external surge voltage.",
+            "Secure spare control panel stock to enable quick replacement.",
+            "Increase cleaning frequency inside the control panel."
+        ]
+    },
+    {
+        "incident_id": "INC075",
+        "equipment": "Robot Welding Machine #3",
+        "device": "Control Panel",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing C Line",
+        "causes": [
+            "Control panel power supply unit malfunction (aging deterioration)",
+            "Influence of overcurrent",
+            "Insufficient internal control panel check during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the robot welding machine and shut off power.",
+            "Identify the malfunctioning part inside the control panel and begin replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, perform power-on test and functional check and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"voltage measurement\\\" and \\\"visual check\\\" to the control panel power supply unit's regular inspection items and clarify replacement criteria.",
+            "Consider introducing an overcurrent protection device to stabilize power quality.",
+            "Secure spare control panel stock to enable quick replacement.",
+            "Increase cleaning frequency inside the control panel."
+        ]
+    },
+    {
+        "incident_id": "INC076",
+        "equipment": "Painting Robot System #4",
+        "device": "Control Panel",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing D Line",
+        "causes": [
+            "Control panel servo amplifier malfunction (aging deterioration)",
+            "Influence of motor overload",
+            "Insufficient internal control panel check during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the painting robot system and shut off power.",
+            "Identify the malfunctioning part inside the control panel and begin replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, perform power-on test and functional check and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"operation check\\\" and \\\"abnormality history check\\\" to the control panel servo amplifier's regular inspection items and clarify replacement criteria.",
+            "Review and adjust the sensitivity setting of the motor's overload protection device to an appropriate value.",
+            "Secure spare control panel stock to enable quick replacement.",
+            "Increase cleaning frequency inside the control panel."
+        ]
+    },
+    {
+        "incident_id": "INC077",
+        "equipment": "Automated Warehouse System #5",
+        "device": "Control Panel",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Warehouse",
+        "causes": [
+            "Control panel PLC malfunction (aging deterioration)",
+            "Influence of momentary power interruption",
+            "Insufficient internal control panel check during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the automated warehouse system and shut off power.",
+            "Identify the malfunctioning part inside the control panel and begin replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, perform power-on test and functional check and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"operation check\\\" and \\\"abnormality history check\\\" to the control panel PLC's regular inspection items and clarify replacement criteria.",
+            "Consider introducing a UPS (Uninterruptible Power Supply) to ensure stable power supply.",
+            "Secure spare control panel stock to enable quick replacement.",
+            "Increase cleaning frequency inside the control panel."
+        ]
+    },
+    {
+        "incident_id": "INC078",
+        "equipment": "Inspection Device #2",
+        "device": "Control Panel",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing C Line",
+        "causes": [
+            "Control panel image processing board malfunction (aging deterioration)",
+            "Influence of heat",
+            "Insufficient internal control panel check during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the inspection device and shut off power.",
+            "Identify the malfunctioning part inside the control panel and begin replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, perform power-on test and functional check and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"operation check\\\" and \\\"abnormality history check\\\" to the control panel image processing board's regular inspection items and clarify replacement criteria.",
+            "Strengthen control panel cooling measures to suppress internal temperature rise.",
+            "Secure spare control panel stock to enable quick replacement.",
+            "Increase cleaning frequency inside the control panel."
+        ]
+    },
+    {
+        "incident_id": "INC079",
+        "equipment": "AGV System #6",
+        "device": "Control Panel",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Transfer",
+        "causes": [
+            "AGV control panel malfunction (aging deterioration)",
+            "Influence of vibration",
+            "Insufficient internal control panel check during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the AGV system and shut off power.",
+            "Identify the malfunctioning control panel and begin replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, perform power-on test and functional check and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"operation check\\\" and \\\"abnormality history check\\\" to the AGV control panel's regular inspection items and clarify replacement criteria.",
+            "Strengthen control panel vibration isolation measures to reduce the influence of vibration.",
+            "Secure spare control panel stock to enable quick replacement.",
+            "Increase cleaning frequency inside the control panel."
+        ]
+    },
+    {
+        "incident_id": "INC080",
+        "equipment": "Overhead Crane #7",
+        "device": "Control Panel",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Warehouse",
+        "causes": [
+            "Control panel inverter malfunction (aging deterioration)",
+            "Influence of overload",
+            "Insufficient internal control panel check during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the overhead crane and shut off power.",
+            "Identify the malfunctioning part inside the control panel and begin replacement work.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, perform power-on test and functional check and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"operation check\\\" and \\\"abnormality history check\\\" to the control panel inverter's regular inspection items and clarify replacement criteria.",
+            "Review and adjust the sensitivity setting of the crane's overload protection device to an appropriate value.",
+            "Secure spare control panel stock to enable quick replacement.",
+            "Increase cleaning frequency inside the control panel."
+        ]
+    },
+    {
+        "incident_id": "INC081",
+        "equipment": "Hydraulic Press #3",
+        "device": "Hydraulic Pump",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Hydraulic pump malfunction (aging deterioration)",
+            "Wear due to hydraulic oil deterioration",
+            "Insufficient regular maintenance"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine and shut off power.",
+            "Identify the malfunctioning hydraulic pump and begin replacement work.",
+            "Replace hydraulic oil.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, confirm hydraulic stability with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Clarify regular hydraulic pump maintenance cycle and state it in SOPs.",
+            "Thoroughly implement regular hydraulic oil replacement cycle and quality control.",
+            "Secure spare hydraulic pump stock to enable quick replacement.",
+            "Consider introducing a pressure monitoring sensor for the hydraulic system."
+        ]
+    },
+    {
+        "incident_id": "INC082",
+        "equipment": "Hydraulic Press #3",
+        "device": "Hydraulic Pump",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Hydraulic cylinder seal deterioration (aging deterioration)",
+            "Overlooking oil leakage during regular inspection",
+            "Insufficient hydraulic oil quality control"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine and shut off power.",
+            "Identify the oil leakage point and begin seal replacement work.",
+            "Replenish hydraulic oil.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, confirm hydraulic stability with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"presence of oil leakage\\\" and \\\"deterioration condition of seal\\\" to the hydraulic cylinder's regular inspection items and clarify replacement criteria.",
+            "Thoroughly implement hydraulic oil quality control to suppress deterioration.",
+            "Consider introducing an oil level monitoring sensor for the hydraulic system.",
+            "Secure spare hydraulic cylinder stock to enable quick replacement."
+        ]
+    },
+    {
+        "incident_id": "INC083",
+        "equipment": "Hydraulic Press #3",
+        "device": "Hydraulic Pump",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Hydraulic valve sticking (hydraulic oil contamination)",
+            "Insufficient regular maintenance",
+            "Insufficient hydraulic oil quality control"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine and shut off power.",
+            "Identify the stuck hydraulic valve and begin cleaning or replacement work.",
+            "Replace hydraulic oil.",
+            "Report to relevant personnel and superiors.",
+            "After cleaning or replacement, confirm hydraulic stability with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Clarify regular hydraulic valve maintenance cycle and state it in SOPs.",
+            "Thoroughly implement hydraulic oil quality control to suppress contamination.",
+            "Increase hydraulic filter replacement frequency.",
+            "Secure spare hydraulic valve stock to enable quick replacement."
+        ]
+    },
+    {
+        "incident_id": "INC084",
+        "equipment": "Hydraulic Press #3",
+        "device": "Hydraulic Pump",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Hydraulic hose burst (aging deterioration, high-pressure fatigue)",
+            "Overlooking hydraulic hose deterioration during regular inspection",
+            "Insufficient hydraulic system pressure monitoring"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine and shut off power.",
+            "Identify the burst hydraulic hose and begin replacement work.",
+            "Clean the oil leakage area.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, confirm hydraulic stability with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"deterioration condition\\\" and \\\"presence of oil leakage\\\" to the hydraulic hose's regular inspection items and clarify replacement criteria.",
+            "Consider introducing a pressure monitoring sensor for the hydraulic system and build a system to alert in case of abnormality.",
+            "Consider changing to a more durable hydraulic hose material.",
+            "Secure spare hydraulic hose stock to enable quick replacement."
+        ]
+    },
+    {
+        "incident_id": "INC085",
+        "equipment": "Hydraulic Press #3",
+        "device": "Hydraulic Pump",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Hydraulic filter clogging",
+            "Overlooking filter replacement timing",
+            "Insufficient hydraulic oil quality control"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine and shut off power.",
+            "Identify the clogged hydraulic filter and begin replacement work.",
+            "Replace hydraulic oil.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, confirm hydraulic stability with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Clarify regular hydraulic filter replacement cycle and state it in SOPs.",
+            "Thoroughly implement hydraulic oil quality control to suppress contamination.",
+            "Consider introducing a sensor to detect hydraulic filter clogging.",
+            "Secure spare hydraulic filter stock to enable quick replacement."
+        ]
+    },
+    {
+        "incident_id": "INC086",
+        "equipment": "Hydraulic Press #3",
+        "device": "Hydraulic Pump",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Hydraulic tank weld deterioration (aging deterioration)",
+            "Fatigue due to vibration",
+            "Overlooking oil leakage during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine and shut off power.",
+            "Identify the oil leakage point and begin repair work.",
+            "Replenish hydraulic oil.",
+            "Report to relevant personnel and superiors.",
+            "After repair, confirm hydraulic stability with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"presence of oil leakage\\\" and \\\"deterioration condition of weld\\\" to the hydraulic tank's regular inspection items and clarify replacement criteria.",
+            "Strengthen hydraulic tank vibration isolation measures to reduce the influence of vibration.",
+            "Consider introducing an oil level monitoring sensor for the hydraulic system.",
+            "Secure spare hydraulic tank stock to enable quick replacement."
+        ]
+    },
+    {
+        "incident_id": "INC087",
+        "equipment": "Hydraulic Press #3",
+        "device": "Hydraulic Pump",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Hydraulic cooler malfunction (aging deterioration)",
+            "Insufficient functional check of cooler during regular inspection",
+            "Absence of oil temperature monitoring system"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine and shut off power.",
+            "Identify the malfunctioning hydraulic cooler and begin replacement work.",
+            "Cool the oil temperature to the specified value.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, confirm oil temperature stability with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"operation check\\\" and \\\"cooling capacity check\\\" to the hydraulic cooler's regular inspection items and clarify replacement criteria.",
+            "Consider introducing a system to monitor oil temperature in real-time and alert in case of abnormality.",
+            "Secure spare hydraulic cooler stock to enable quick replacement.",
+            "Increase cleaning frequency of the cooler."
+        ]
+    },
+    {
+        "incident_id": "INC088",
+        "equipment": "Hydraulic Press #3",
+        "device": "Hydraulic Pump",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Hydraulic piping clogging (sludge accumulation)",
+            "Hydraulic oil quality deterioration",
+            "Insufficient piping cleaning"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine and shut off power.",
+            "Identify the clogged hydraulic piping and begin cleaning work.",
+            "Replace hydraulic oil.",
+            "Report to relevant personnel and superiors.",
+            "After cleaning, confirm hydraulic stability with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Clarify regular hydraulic piping cleaning cycle and state it in SOPs.",
+            "Thoroughly implement hydraulic oil quality control to suppress sludge generation.",
+            "Increase hydraulic filter replacement frequency.",
+            "Secure spare hydraulic piping stock to enable quick replacement."
+        ]
+    },
+    {
+        "incident_id": "INC089",
+        "equipment": "Hydraulic Press #3",
+        "device": "Hydraulic Pump",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Hydraulic gauge malfunction (aging deterioration)",
+            "Insufficient functional check of hydraulic gauge during regular inspection",
+            "Absence of hydraulic monitoring system"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine and shut off power.",
+            "Identify the malfunctioning hydraulic gauge and begin replacement work.",
+            "Adjust hydraulic pressure to the specified value.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, confirm hydraulic stability with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"operation check\\\" and \\\"accuracy check\\\" to the hydraulic gauge's regular inspection items and clarify replacement criteria.",
+            "Consider introducing a system to monitor hydraulic pressure in real-time and alert in case of abnormality.",
+            "Secure spare hydraulic gauge stock to enable quick replacement.",
+            "Strengthen hydraulic gauge protection measures to reduce external influences."
+        ]
+    },
+    {
+        "incident_id": "INC090",
+        "equipment": "Hydraulic Press #3",
+        "device": "Hydraulic Pump",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Hydraulic relief valve malfunction (aging deterioration)",
+            "Insufficient functional check of relief valve during regular inspection",
+            "Absence of hydraulic monitoring system"
+        ],
+        "immediate_actions": [
+            "Emergency stop the press machine and shut off power.",
+            "Identify the malfunctioning hydraulic relief valve and begin replacement work.",
+            "Adjust hydraulic pressure to the specified value.",
+            "Remove the damaged die and arrange for repair or a replacement.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, confirm hydraulic stability with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"operation check\\\" and \\\"set pressure check\\\" to the hydraulic relief valve's regular inspection items and clarify replacement criteria.",
+            "Consider introducing a system to monitor hydraulic pressure in real-time and alert in case of abnormality.",
+            "Secure spare hydraulic relief valve stock to enable quick replacement.",
+            "Consider strengthening the hydraulic system's overpressure protection mechanism."
+        ]
+    },
+    {
+        "incident_id": "INC091",
+        "equipment": "Hydraulic Press #3",
+        "device": "Cooling Device",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing A Line",
+        "causes": [
+            "Cooling device compressor malfunction (aging deterioration)",
+            "Insufficient regular maintenance",
+            "Absence of oil temperature monitoring system"
+        ],
+        "immediate_actions": [
+            "Emergency stop processing A line and shut off power.",
+            "Identify the malfunctioning compressor and begin replacement work.",
+            "Cool the oil temperature to the specified value.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, confirm cooling function with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Clarify regular cooling device maintenance cycle and state it in SOPs.",
+            "Consider introducing a system to monitor oil temperature in real-time and alert in case of abnormality.",
+            "Secure spare compressor stock to enable quick replacement.",
+            "Increase cleaning frequency of the cooling device."
+        ]
+    },
+    {
+        "incident_id": "INC092",
+        "equipment": "Welding Robot System #1",
+        "device": "Cooling Device",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing B Line",
+        "causes": [
+            "Cooling device fan motor malfunction (aging deterioration)",
+            "Insufficient regular maintenance",
+            "Absence of torch temperature monitoring system"
+        ],
+        "immediate_actions": [
+            "Emergency stop processing B line and shut off power.",
+            "Identify the malfunctioning fan motor and begin replacement work.",
+            "Cool the torch temperature to the specified value.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, confirm cooling function with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Clarify regular cooling device maintenance cycle and state it in SOPs.",
+            "Consider introducing a system to monitor torch temperature in real-time and alert in case of abnormality.",
+            "Secure spare fan motor stock to enable quick replacement.",
+            "Increase cleaning frequency of the cooling device filter."
+        ]
+    },
+    {
+        "incident_id": "INC093",
+        "equipment": "Laser Processing Machine #2",
+        "device": "Cooling Device",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing C Line",
+        "causes": [
+            "Cooling device pump malfunction (aging deterioration)",
+            "Insufficient regular maintenance",
+            "Absence of oscillator temperature monitoring system"
+        ],
+        "immediate_actions": [
+            "Emergency stop processing C line and shut off power.",
+            "Identify the malfunctioning pump and begin replacement work.",
+            "Cool the oscillator temperature to the specified value.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, confirm cooling function with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Clarify regular cooling device maintenance cycle and state it in SOPs.",
+            "Consider introducing a system to monitor oscillator temperature in real-time and alert in case of abnormality.",
+            "Secure spare pump stock to enable quick replacement.",
+            "Review cooling water management standards and thoroughly manage water quality."
+        ]
+    },
+    {
+        "incident_id": "INC094",
+        "equipment": "Heat Treatment Furnace #4",
+        "device": "Cooling Device",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing D Line",
+        "causes": [
+            "Cooling device heat exchanger clogging",
+            "Insufficient cleaning",
+            "Cooling water quality deterioration"
+        ],
+        "immediate_actions": [
+            "Emergency stop processing D line and shut off power.",
+            "Identify the clogged heat exchanger and begin cleaning work.",
+            "Cool the furnace internal temperature to the specified value.",
+            "Report to relevant personnel and superiors.",
+            "After cleaning, confirm cooling function with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Clarify regular cooling device cleaning cycle and state it in SOPs.",
+            "Thoroughly implement cooling water quality control to suppress clogging.",
+            "Consider introducing a system to monitor furnace internal temperature in real-time and alert in case of abnormality.",
+            "Secure spare heat exchanger stock to enable quick replacement."
+        ]
+    },
+    {
+        "incident_id": "INC095",
+        "equipment": "Injection Molding Machine #5",
+        "device": "Cooling Device",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing E Line",
+        "causes": [
+            "Cooling device piping deterioration (aging deterioration)",
+            "Insufficient regular inspection",
+            "Absence of mold temperature monitoring system"
+        ],
+        "immediate_actions": [
+            "Emergency stop processing E line and shut off power.",
+            "Identify the water leakage point and begin repair work.",
+            "Cool the mold temperature to the specified value.",
+            "Report to relevant personnel and superiors.",
+            "After repair, confirm cooling function with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"presence of water leakage\\\" and \\\"deterioration condition of piping\\\" to the cooling device piping's regular inspection items and clarify replacement criteria.",
+            "Consider introducing a system to monitor mold temperature in real-time and alert in case of abnormality.",
+            "Secure spare piping stock to enable quick replacement.",
+            "Review cooling water management standards and thoroughly manage water quality."
+        ]
+    },
+    {
+        "incident_id": "INC096",
+        "equipment": "Grinding Machine #6",
+        "device": "Cooling Device",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing F Line",
+        "causes": [
+            "Cooling device filter clogging",
+            "Overlooking filter replacement timing",
+            "Absence of grinding fluid temperature monitoring system"
+        ],
+        "immediate_actions": [
+            "Emergency stop processing F line and shut off power.",
+            "Identify the clogged filter and begin replacement work.",
+            "Cool the grinding fluid temperature to the specified value.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, confirm cooling function with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Clarify regular cooling device maintenance cycle and state it in SOPs.",
+            "Consider introducing a system to monitor grinding fluid temperature in real-time and alert in case of abnormality.",
+            "Secure spare filter stock to enable quick replacement.",
+            "Thoroughly implement grinding fluid quality control to suppress clogging."
+        ]
+    },
+    {
+        "incident_id": "INC097",
+        "equipment": "EDM Machine #7",
+        "device": "Cooling Device",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing G Line",
+        "causes": [
+            "Cooling device radiator contamination",
+            "Insufficient cleaning",
+            "Absence of processing fluid temperature monitoring system"
+        ],
+        "immediate_actions": [
+            "Emergency stop processing G line and shut off power.",
+            "Identify the dirty radiator and begin cleaning work.",
+            "Cool the processing fluid temperature to the specified value.",
+            "Report to relevant personnel and superiors.",
+            "After cleaning, confirm cooling function with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Clarify regular cooling device cleaning cycle and state it in SOPs.",
+            "Consider introducing a system to monitor processing fluid temperature in real-time and alert in case of abnormality.",
+            "Strengthen radiator protection measures to suppress contamination.",
+            "Conduct re-education for workers on daily inspection of cooling devices."
+        ]
+    },
+    {
+        "incident_id": "INC098",
+        "equipment": "Polishing Machine #8",
+        "device": "Cooling Device",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing H Line",
+        "causes": [
+            "Cooling device fan malfunction (aging deterioration)",
+            "Insufficient regular maintenance",
+            "Absence of polishing fluid temperature monitoring system"
+        ],
+        "immediate_actions": [
+            "Emergency stop processing H line and shut off power.",
+            "Identify the malfunctioning fan and begin replacement work.",
+            "Cool the polishing fluid temperature to the specified value.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, confirm cooling function with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Clarify regular cooling device maintenance cycle and state it in SOPs.",
+            "Consider introducing a system to monitor polishing fluid temperature in real-time and alert in case of abnormality.",
+            "Secure spare fan stock to enable quick replacement.",
+            "Increase cleaning frequency of the fan filter."
+        ]
+    },
+    {
+        "incident_id": "INC099",
+        "equipment": "Washing Machine #9",
+        "device": "Cooling Device",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing I Line",
+        "causes": [
+            "Cooling device refrigerant leakage",
+            "Refrigerant piping deterioration (aging deterioration)",
+            "Insufficient regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop processing I line and shut off power.",
+            "Identify the refrigerant leakage point and begin repair work.",
+            "Replenish refrigerant and cool the washing fluid temperature to the specified value.",
+            "Report to relevant personnel and superiors.",
+            "After repair, confirm cooling function with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"presence of refrigerant leakage\\\" and \\\"deterioration condition of piping\\\" to the cooling device's regular inspection items and clarify replacement criteria.",
+            "Consider introducing a system to monitor washing fluid temperature in real-time and alert in case of abnormality.",
+            "Secure spare refrigerant piping stock to enable quick replacement.",
+            "Consider introducing a refrigerant leakage detection system."
+        ]
+    },
+    {
+        "incident_id": "INC100",
+        "equipment": "Drying Oven #10",
+        "device": "Cooling Device",
+        "category": "Equipment Failure (Production Stoppage)",
+        "location": "Processing J Line",
+        "causes": [
+            "Cooling device control panel malfunction (aging deterioration)",
+            "Influence of electrical noise",
+            "Insufficient internal control panel check during regular inspection"
+        ],
+        "immediate_actions": [
+            "Emergency stop processing J line and shut off power.",
+            "Identify the malfunctioning control panel and begin replacement work.",
+            "Cool the furnace internal temperature to the specified value.",
+            "Report to relevant personnel and superiors.",
+            "After replacement, confirm cooling function with a test run and resume operation."
+        ],
+        "permanent_actions": [
+            "Add \\\"operation check\\\" and \\\"abnormality history check\\\" to the cooling device control panel's regular inspection items and clarify replacement criteria.",
+            "Strengthen electrical noise countermeasures, review shielding cable usage and grounding.",
+            "Secure spare control panel stock to enable quick replacement.",
+            "Increase cleaning frequency inside the control panel."
+        ]
+    }
+]
