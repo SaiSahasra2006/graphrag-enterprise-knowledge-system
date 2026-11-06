@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific exclusions
+.env
+config/.env
+*.pem
+*.key
+
+# Local database and generated files
+data/*.db
+data/*.sqlite
