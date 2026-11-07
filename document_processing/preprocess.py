@@ -1,3 +1,4 @@
+
 import pandas as pd
 from pathlib import Path
 import json
@@ -43,21 +44,20 @@ def load_dataset():
 def clean_dataset(df):
     """Clean formatting inconsistencies in the dataset."""
 
-    # Remove leading and trailing spaces from text columns
-    for column in df.select_dtypes(include="str").columns:
+    for column in df.select_dtypes(include=["object"]).columns:
         df[column] = df[column].str.strip()
 
-    # Remove unwanted quotation marks around equipment and device names
     for column in ["Equipment", "Device"]:
         df[column] = df[column].str.strip('"').str.strip()
 
-    # Convert empty strings into proper missing values
     df.replace(r"^\s*$", pd.NA, regex=True, inplace=True)
 
     print("\nDataset cleaning completed!")
     print(f"Remaining missing values: {df.isna().sum().sum()}")
 
     return df
+
+
 def split_incident_details(df):
     """Split multiple causes and countermeasures into individual entries."""
 
@@ -78,29 +78,35 @@ def split_incident_details(df):
 
     print("\nIncident details separated successfully!")
 
-    print("Causes in first incident:", len(df.iloc[0]["Cause"]))
-    print(
-        "Immediate actions in first incident:",
-        len(df.iloc[0]["Immediate_Countermeasure"])
-    )
-    print(
-        "Permanent actions in first incident:",
-        len(df.iloc[0]["Permanent_Countermeasure"])
-    )
-
     return df
+
+
 def create_structured_records(df):
     """Convert incident data into structured records."""
 
     structured_records = []
 
     for _, row in df.iterrows():
+
+        def get_text(column):
+            value = row[column]
+
+            if pd.isna(value):
+                return None
+
+            return str(value).strip()
+
         record = {
-            "incident_id": row["Incident_ID"],
-            "equipment": row["Equipment"],
-            "device": row["Device"],
-            "category": row["Incident_Category"],
-            "location": row["Location"],
+            "incident_id": get_text("Incident_ID"),
+            "time": get_text("Time"),
+            "discoverer": get_text("Discoverer"),
+            "category": get_text("Incident_Category"),
+            "summary": get_text("Incident_Summary"),
+            "details": get_text("Detailed"),
+            "impact_scope": get_text("Impact_Scope"),
+            "equipment": get_text("Equipment"),
+            "device": get_text("Device"),
+            "location": get_text("Location"),
             "causes": row["Cause"],
             "immediate_actions": row["Immediate_Countermeasure"],
             "permanent_actions": row["Permanent_Countermeasure"]
@@ -115,6 +121,7 @@ def create_structured_records(df):
 
     return structured_records
 
+
 def save_as_json(records):
     """Save structured incident records as a JSON file."""
 
@@ -125,6 +132,7 @@ def save_as_json(records):
 
     print("\nJSON file saved successfully!")
     print("Saved location:", output_path)
+
 
 if __name__ == "__main__":
     df = load_dataset()

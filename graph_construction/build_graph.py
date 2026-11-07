@@ -55,19 +55,25 @@ class GraphBuilder:
         print(f"Equipment nodes created: {len(equipment_names)}")
 
     # 2. Create Device nodes and connect them to Equipment
-    def create_device_relationship(self, equipment_name, device_name):
+
+    def create_device_relationship(self, equipment_name, device_name, incident_id):
         query = """
         MERGE (e:Equipment {name: $equipment})
         MERGE (d:Device {name: $device})
         MERGE (e)-[:HAS_DEVICE]->(d)
+
+        MERGE (i:Incident {incident_id: $incident_id})
+        MERGE (i)-[:INVOLVES_DEVICE]->(d)
         """
 
         with self.driver.session(database="graphrag") as session:
             session.run(
                 query,
                 equipment=equipment_name,
-                device=device_name
+                device=device_name,
+                incident_id=incident_id
             )
+
 
     def build_device_nodes(self):
         with open(JSON_PATH, "r", encoding="utf-8") as file:
@@ -78,8 +84,11 @@ class GraphBuilder:
             device = record.get("device")
 
             if equipment and device:
-                self.create_device_relationship(equipment, device)
-
+                self.create_device_relationship(
+                    equipment,
+                    device,
+                    record["incident_id"]
+            )
         print("Device nodes and equipment relationships created!")
 
     # 3. Create Incident nodes and connect them to Equipment
@@ -115,6 +124,36 @@ class GraphBuilder:
                 incident_count += 1
 
         print(f"Incident nodes and relationships created: {incident_count}")
+    def build_incident_properties(self):
+        """Store detailed incident information as node properties."""
+
+        with open(JSON_PATH, "r", encoding="utf-8") as file:
+            records = json.load(file)
+
+        query = """
+        MATCH (i:Incident {incident_id: $incident_id})
+        SET
+            i.time = $time,
+            i.discoverer = $discoverer,
+            i.summary = $summary,
+            i.details = $details,
+            i.impact_scope = $impact_scope
+        """
+
+        with self.driver.session(database="graphrag") as session:
+            for record in records:
+                session.run(
+                    query,
+                    incident_id=record["incident_id"],
+                    time=record.get("time"),
+                    discoverer=record.get("discoverer"),
+                    summary=record.get("summary"),
+                    details=record.get("details"),
+                    impact_scope=record.get("impact_scope")
+                )
+
+        print("Additional incident properties stored successfully!")
+
     # 4. Create Incident Category nodes and relationships
     def build_category_nodes(self):
         with open(JSON_PATH, "r", encoding="utf-8") as file:
@@ -241,7 +280,7 @@ class GraphBuilder:
 
         print(
             f"Location relationships created: {relationship_count}"
-        )    
+        )
 # Main execution
 if __name__ == "__main__":
     builder = GraphBuilder()
@@ -250,6 +289,7 @@ if __name__ == "__main__":
         builder.build_equipment_nodes()
         builder.build_device_nodes()
         builder.build_incident_nodes()
+        builder.build_incident_properties()
         builder.build_category_nodes()
         builder.build_cause_nodes()
         builder.build_immediate_action_nodes()
