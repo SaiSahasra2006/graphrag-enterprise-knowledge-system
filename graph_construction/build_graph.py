@@ -3,6 +3,9 @@ import json
 import os
 from pathlib import Path
 from neo4j import GraphDatabase
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Project paths
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
